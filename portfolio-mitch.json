@@ -32,18 +32,45 @@
   ],
   "projects": [
     {
-      "title": "Microblog",
-      "summary": "Developed a blog website to help others.",
-      "url": "https://guatemalachurch.com/auth/login?next=%2F",
-      "highlights": ["Flask website", "Over 100 views"],
-      "images": [
+      "title": "Flask Blog Application",
+      "summary": "Built and deployed a production-ready blog application by completing Miguel Grinberg’s Flask Mega-Tutorial, focusing on backend development, database design, authentication, and deployment pipelines.",
+      "url": "hhttps://github.com/MitchellMunoz/microblog",
+"highlights": [
+  "Developed Flask-based web application with Jinja2 templates and user authentication",
+  "Implemented relational database schema and migrations using SQLAlchemy and Alembic",
+  "Wrote automated unit tests to validate application routes and database operations",
+  "Integrated external services for email notifications and user avatars (Gravatar)",
+  "Containerized the application with Docker and deployed to production using uWSGI behind Nginx",
+  "Configured GitHub Actions for continuous integration and deployment workflows"
+],     
+         "images": [
         {
           "img_path": "portfolio_media/yt1.png",
-          "caption": "Main Project"
+          "caption": "Flask Blog Project"
         }
         
       ]
+    },
+
+   {
+  "title": "Django Blog Application",
+  "summary": "Built a blog platform by completing Corey Schafer’s Django tutorials, focusing on Django’s built-in features and ORM.",
+  "url": "https://github.com/MitchellMunoz/django_project",
+  "highlights": [
+    "Developed full-stack blog application using Django’s class-based views, templates, and URL routing",
+    "Implemented user registration, login/logout, and password reset with Django’s authentication system",
+    "Integrated Crispy Forms and Bootstrap to improve form handling and UI",
+    "Created relational database models and managed schema changes with Django migrations",
+    "Configured static and media file handling for user profile images",
+    "Leveraged Django signals to automate user profile creation and updates"
+  ],
+  "images": [
+    {
+      "img_path": "portfolio_media/yt2.png",
+      "caption": "Django Blog Project"
     }
+  ]
+}
   ],
   "volunteer_experience": [
     {
