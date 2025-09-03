@@ -10,54 +10,65 @@
   "summary": "Python programming hobbyist in rural Guatemala.",
   "social_links": [
     {
-     
       "label": "Github",
       "url": "https://github.com/MitchellMunoz",
       "svg_path": "img/github.svg"
     }
   ],
-  
   "projects": [
     {
       "title": "Flask Blog Application",
       "summary": "Built and deployed a production-ready blog application by completing Miguel Grinberg’s Flask Mega-Tutorial, focusing on backend development, database design, authentication, and deployment pipelines.",
-      "url": "hhttps://github.com/MitchellMunoz/microblog",
-"highlights": [
-  "Developed Flask-based web application with Jinja2 templates and user authentication",
-  "Implemented relational database schema and migrations using SQLAlchemy and Alembic",
-  "Wrote automated unit tests to validate application routes and database operations",
-  "Integrated external services for email notifications and user avatars (Gravatar)",
-  "Containerized the application with Docker and deployed to production using uWSGI behind Nginx",
-  "Configured GitHub Actions for continuous integration and deployment workflows"
-],     
-         "images": [
+      "url": "https://github.com/MitchellMunoz/microblog",
+      "highlights": [
+        "Developed Flask-based web application with Jinja2 templates and user authentication",
+        "Implemented relational database schema and migrations using SQLAlchemy and Alembic",
+        "Wrote automated unit tests to validate application routes and database operations",
+        "Integrated external services for email notifications and user avatars (Gravatar)",
+        "Containerized the application with Docker and deployed to production using uWSGI behind Nginx",
+        "Configured GitHub Actions for continuous integration and deployment workflows"
+      ],
+      "images": [
         {
           "img_path": "portfolio_media/yt1.png",
           "caption": "Flask Blog Project"
         }
-        
       ]
     },
-
-   {
-  "title": "Django Blog Application",
-  "summary": "Built a blog platform by completing Corey Schafer’s Django tutorials, focusing on Django’s built-in features and ORM.",
-  "url": "https://github.com/MitchellMunoz/django_project",
-  "highlights": [
-    "Developed full-stack blog application using Django’s class-based views, templates, and URL routing",
-    "Implemented user registration, login/logout, and password reset with Django’s authentication system",
-    "Integrated Crispy Forms and Bootstrap to improve form handling and UI",
-    "Created relational database models and managed schema changes with Django migrations",
-    "Configured static and media file handling for user profile images",
-    "Leveraged Django signals to automate user profile creation and updates"
-  ],
-  "images": [
     {
-      "img_path": "portfolio_media/yt2.png",
-      "caption": "Django Blog Project"
+      "title": "Django Blog Application",
+      "summary": "Built a blog platform by completing Corey Schafer’s Django tutorials, focusing on Django’s built-in features and ORM.",
+      "url": "https://github.com/MitchellMunoz/django_project",
+      "highlights": [
+        "Developed full-stack blog application using Django’s class-based views, templates, and URL routing",
+        "Implemented user registration, login/logout, and password reset with Django’s authentication system",
+        "Integrated Crispy Forms and Bootstrap to improve form handling and UI",
+        "Created relational database models and managed schema changes with Django migrations",
+        "Configured static and media file handling for user profile images",
+        "Leveraged Django signals to automate user profile creation and updates"
+      ],
+      "images": [
+        {
+          "img_path": "portfolio_media/yt2.png",
+          "caption": "Django Blog Project"
+        }
+      ]
+    },
+    {
+      "title": "Pygame 2D Runner",
+      "summary": "A comprehensive guide to building games with Pygame using object-oriented programming principles.",
+      "url": "https://github.com/MitchellMunoz/UltimatePygameOOP",
+      "highlights": [
+        "Built a 2D runner game in Pygame with object-oriented sprite handling",
+        "Implemented collision detection, animations, game state management, and sound integration"
+      ],
+      "images": [
+        {
+          "img_path": "portfolio_media/yt3.png",
+          "caption": "Pygame 2D Runner Project"
+        }
+      ]
     }
-  ]
-}
   ],
   "work_experience": [
     {
@@ -66,7 +77,7 @@
       "url": "https://www.matricinnovates.com/",
       "start_date": "2011",
       "end_date": "2013",
-      "summary": "Responsible for managing and maintaining the church’s computer networks, software, and technology infrastructure ",
+      "summary": "Responsible for managing and maintaining the church’s computer networks, software, and technology infrastructure",
       "highlights": [
         "Built and launched website",
         "Solved daily tech challenges."
@@ -93,15 +104,16 @@
         "(B.S.B.A) in Information Systems",
         "Minor in Spanish"
       ],
-       "graduation_date": "2011"
+      "graduation_date": "2011"
     },
     {
       "institution": "Southwestern Baptist Theological Seminary",
       "location": "Fort Worth, TX, USA",
       "url": "https://swbts.edu",
-      "degrees": ["Mastrs in Divinity", 
-      "Concentration in Biblical languages"
-    ],
+      "degrees": [
+        "Masters in Divinity",
+        "Concentration in Biblical languages"
+      ],
       "graduation_date": "2017"
     }
   ],
