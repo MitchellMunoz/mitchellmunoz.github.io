@@ -16,20 +16,7 @@
       "svg_path": "img/github.svg"
     }
   ],
-  "work_experience": [
-    {
-      "company": "El Shaddai Christian Church",
-      "position": "IT Systems Administrator",
-      "url": "https://www.matricinnovates.com/",
-      "start_date": "2011",
-      "end_date": "2013",
-      "summary": "Responsible for managing and maintaining the church’s computer networks, software, and technology infrastructure ",
-      "highlights": [
-        "Built and launched website",
-        "Solved daily tech challenges."
-      ]
-    }
-  ],
+  
   "projects": [
     {
       "title": "Flask Blog Application",
@@ -71,6 +58,20 @@
     }
   ]
 }
+  ],
+  "work_experience": [
+    {
+      "company": "El Shaddai Christian Church",
+      "position": "IT Systems Administrator",
+      "url": "https://www.matricinnovates.com/",
+      "start_date": "2011",
+      "end_date": "2013",
+      "summary": "Responsible for managing and maintaining the church’s computer networks, software, and technology infrastructure ",
+      "highlights": [
+        "Built and launched website",
+        "Solved daily tech challenges."
+      ]
+    }
   ],
   "volunteer_experience": [
     {
