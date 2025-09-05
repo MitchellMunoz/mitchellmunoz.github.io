@@ -19,7 +19,7 @@
     {
       "title": "Flask Blog Application",
       "summary": "Built and deployed a production-ready blog application by completing Miguel Grinberg’s Flask Mega-Tutorial, focusing on backend development, database design, authentication, and deployment pipelines.",
-      "url": "https://github.com/MitchellMunoz/microblog",
+      "url": "https://flask.mitchmunoz.com",
       "highlights": [
         "Developed Flask-based web application with Jinja2 templates and user authentication",
         "Implemented relational database schema and migrations using SQLAlchemy and Alembic",
@@ -38,7 +38,7 @@
     {
       "title": "Django Blog Application",
       "summary": "Built a blog platform by completing Corey Schafer’s Django tutorials, focusing on Django’s built-in features and ORM.",
-      "url": "https://github.com/MitchellMunoz/django_project",
+      "url": "https://django.mitchmunoz.com",
       "highlights": [
         "Developed full-stack blog application using Django’s class-based views, templates, and URL routing",
         "Implemented user registration, login/logout, and password reset with Django’s authentication system",
