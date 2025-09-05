@@ -6,4 +6,6 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "jinja2>=3.1.6",
+    "pygame-ce>=2.5.5",
+    "pygbag>=0.9.2",
 ]

@@ -1,13 +1,13 @@
 {
   "name": "Mitchell Munoz",
-  "label": "Python Programmer",
+  "label": "Software Developer",
   "image_path": "portfolio_media/profile.jpg",
   "contact": {
     "email": "Mitchell.munoz127@gmail.com",
     "phone": "+502-3019-7208",
     "location": "Guatemala"
   },
-  "summary": "Python programming hobbyist in rural Guatemala.",
+  "summary": "Software developer with strong experience in Python, Flask, Django, and Pygame. Skilled in backend development, system administration, and deploying applications to production environments. Experienced in relational databases, containerization, and CI/CD workflows, with hands-on use of AWS and Raspberry Pi for deployment and experimentation.",
   "social_links": [
     {
       "label": "Github",
@@ -56,11 +56,11 @@
     },
     {
       "title": "Pygame 2D Runner",
-      "summary": "A comprehensive guide to building games with Pygame using object-oriented programming principles.",
+      "summary": "Built a complete 2D runner game using Pygame with object-oriented programming principles.",
       "url": "https://github.com/MitchellMunoz/UltimatePygameOOP",
       "highlights": [
-        "Built a 2D runner game in Pygame with object-oriented sprite handling",
-        "Implemented collision detection, animations, game state management, and sound integration"
+        "Implemented object-oriented sprite handling, collision detection, animations, and game state management",
+        "Added audio integration and refined event loop for smooth gameplay"
       ],
       "images": [
         {
@@ -68,6 +68,26 @@
           "caption": "Pygame 2D Runner Project"
         }
       ]
+    },
+    {
+      "title": "Nuxt Frontend Exploration",
+      "summary": "Experimented with Nuxt.js to build simple frontend components integrated with backend APIs.",
+      "url": "",
+      "highlights": [
+        "Created responsive UI components using Vue/Nuxt",
+        "Connected frontend to Flask backend for API testing"
+      ],
+      "images": []
+    },
+    {
+      "title": "Raspberry Pi Deployments",
+      "summary": "Deployed small-scale projects to Raspberry Pi devices, experimenting with lightweight hosting and IoT integrations.",
+      "url": "",
+      "highlights": [
+        "Configured Raspberry Pi OS and deployed Flask/Django projects locally",
+        "Explored GPIO and peripheral integration for basic hardware control"
+      ],
+      "images": []
     }
   ],
   "work_experience": [
@@ -77,10 +97,10 @@
       "url": "https://www.matricinnovates.com/",
       "start_date": "2011",
       "end_date": "2013",
-      "summary": "Responsible for managing and maintaining the church’s computer networks, software, and technology infrastructure",
+      "summary": "Managed and maintained the church’s computer networks, software, and technology infrastructure.",
       "highlights": [
         "Built and launched website",
-        "Solved daily tech challenges."
+        "Solved daily tech challenges"
       ]
     }
   ],
@@ -91,7 +111,7 @@
       "url": "https://www.heritage-point.com/",
       "start_date": "2011",
       "end_date": "2013",
-      "summary": "Helped serve with any computer problems for two hours each week. Mainly helped with networking, typing, basic instruction, and troubleshooting.",
+      "summary": "Helped serve with any computer problems for two hours each week. Mainly assisted with networking, typing, basic instruction, and troubleshooting.",
       "highlights": []
     }
   ],
@@ -101,7 +121,7 @@
       "location": "Fayetteville, AR, USA",
       "url": "https://uark.edu",
       "degrees": [
-        "(B.S.B.A) in Information Systems",
+        "B.S.B.A. in Information Systems",
         "Minor in Spanish"
       ],
       "graduation_date": "2011"
@@ -111,27 +131,32 @@
       "location": "Fort Worth, TX, USA",
       "url": "https://swbts.edu",
       "degrees": [
-        "Masters in Divinity",
-        "Concentration in Biblical languages"
+        "Master of Divinity",
+        "Concentration in Biblical Languages (Greek and Hebrew)"
       ],
       "graduation_date": "2017"
     }
   ],
   "skills": [
     {
-      "name": "Python, Flask",
-      "proficiency": 100,
-      "proficiency_label": "Expert"
+      "category": "Languages",
+      "items": ["Python", "PHP", "JavaScript", "HTML", "CSS"]
     },
     {
-      "name": "System Administration, Linux",
-      "proficiency": 90,
-      "proficiency_label": "Advanced"
+      "category": "Frameworks & Libraries",
+      "items": ["Flask", "Django", "Pygame", "Nuxt.js"]
     },
     {
-      "name": "JavaScript, HTML, CSS",
-      "proficiency": 75,
-      "proficiency_label": "Comfortable"
+      "category": "Databases",
+      "items": ["SQLite3", "MySQL"]
+    },
+    {
+      "category": "DevOps & Tools",
+      "items": ["Docker", "GitHub Actions", "uWSGI", "Nginx", "AWS", "Linux System Administration"]
+    },
+    {
+      "category": "Hardware & Platforms",
+      "items": ["Raspberry Pi"]
     }
   ],
   "interests": [
@@ -148,7 +173,11 @@
   ],
   "languages": [
     {
-      "language": "English, Spanish",
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Spanish",
       "fluency": "Fluent"
     }
   ],
