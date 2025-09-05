@@ -38,7 +38,7 @@
     {
       "title": "Django Blog Application",
       "summary": "Built a blog platform by completing Corey Schafer’s Django tutorials, focusing on Django’s built-in features and ORM.",
-      "url": "https://django.mitchmunoz.com",
+      "url": "https://django.mitchmunoz.com/login/",
       "highlights": [
         "Developed full-stack blog application using Django’s class-based views, templates, and URL routing",
         "Implemented user registration, login/logout, and password reset with Django’s authentication system",
@@ -137,28 +137,26 @@
       "graduation_date": "2017"
     }
   ],
-  "skills": [
-    {
-      "category": "Languages",
-      "items": ["Python", "PHP", "JavaScript", "HTML", "CSS"]
-    },
-    {
-      "category": "Frameworks & Libraries",
-      "items": ["Flask", "Django", "Pygame", "Nuxt.js"]
-    },
-    {
-      "category": "Databases",
-      "items": ["SQLite3", "MySQL"]
-    },
-    {
-      "category": "DevOps & Tools",
-      "items": ["Docker", "GitHub Actions", "uWSGI", "Nginx", "AWS", "Linux System Administration"]
-    },
-    {
-      "category": "Hardware & Platforms",
-      "items": ["Raspberry Pi"]
-    }
-  ],
+"skills": [
+  { "name": "Python", "proficiency": 85, "proficiency_label": "Expert" },
+  { "name": "Flask", "proficiency": 85, "proficiency_label": "Advanced" },
+  { "name": "Django", "proficiency": 85, "proficiency_label": "Advanced" },
+  { "name": "Linux / System Administration", "proficiency": 90, "proficiency_label": "Advanced" },
+  { "name": "JavaScript", "proficiency": 60, "proficiency_label": "Working" },
+  { "name": "Docker", "proficiency": 60, "proficiency_label": "Working" },
+  { "name": "AWS", "proficiency": 60, "proficiency_label": "Working" },
+  { "name": "MySQL", "proficiency": 65, "proficiency_label": "Working" },
+  { "name": "SQLite", "proficiency": 80, "proficiency_label": "Advanced" },
+  { "name": "Nuxt.js", "proficiency": 55, "proficiency_label": "Familiar" },
+  { "name": "Raspberry Pi", "proficiency": 70, "proficiency_label": "Working" }
+],
+"tech_stack": [
+  { "category": "Languages", "items": ["Python", "PHP", "JavaScript", "HTML", "CSS"] },
+  { "category": "Frameworks & Libraries", "items": ["Flask", "Django", "Pygame", "Nuxt.js"] },
+  { "category": "Databases", "items": ["SQLite3", "MySQL"] },
+  { "category": "DevOps & Tools", "items": ["Docker", "GitHub Actions", "uWSGI", "Nginx", "AWS", "Linux System Administration"] },
+  { "category": "Hardware & Platforms", "items": ["Raspberry Pi"] }
+],
   "interests": [
     {
       "name": "Programming",
