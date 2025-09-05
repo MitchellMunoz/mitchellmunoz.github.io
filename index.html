@@ -4,32 +4,54 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Site Info -->
     <title>Mitchell Munoz - Portfolio</title>
     <meta name="description" content="Mitchell Munoz - Software developer with strong experience in Python, Flask, Django, and Pygame. Skilled in backend development, system administration, and deploying applications to production environments. Experienced in relational databases, containerization, and CI/CD workflows, with hands-on use of AWS and Raspberry Pi for deployment and experimentation.">
     <meta name="author" content="Mitchell Munoz">
 
+    <!-- Open Graph Tags: The title of the page for social media sharing. It can match the title tag or be more descriptive. -->
     <meta property="og:title" content="Mitchell Munoz">
+
+    <!-- Open Graph Tags: Typically set to "website" for static sites or "article" for content-heavy pages. -->
     <meta property="og:type" content="website">
+
+    <!-- Open Graph Tags: The URL of the page, used to ensure link previews resolve to the correct page. -->
     <meta property="og:url" content="/index.html">
+
+    <!-- Open Graph Tags: URL of an image that represents the page. Useful for link previews. -->
     <meta property="og:image" content="/portfolio_media/profile.jpg">
+
+    <!-- Open Graph Tags: Provides an alternative text for the image to improve accessibility. -->
     <meta property="og:image:alt" content="Mitchell Munoz Profile Image">
 
+    <!-- Preconnect for Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+    <!-- Custom Font -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
           rel="stylesheet">
 
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="css/modern_normalize.css" />
     <link rel="stylesheet" href="css/html5bp.css">
     <link rel="stylesheet" href="css/main.css">
 
+    <!-- Set a theme color that matches your website's primary color -->
     <meta name="theme-color" content="#fafafa">
 
+    <!-- Favicon for all browsers -->
     <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="icon" href="/icon.svg" type="image/svg+xml">
+
+    <!-- Apple touch icon for iOS devices -->
     <link rel="apple-touch-icon" sizes="180x180" href="/icon.png">
+
+    <!-- Web app manifest for Progressive Web Apps -->
     <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Content Security Policy: Uncomment to enhance security by restricting where content can be loaded from (useful for preventing certain attacks like XSS). Update if adding external sources (e.g., Google Fonts, Bootstrap CDN, analytics, etc). -->
+    <!-- <meta http-equiv="Content-Security-Policy" content=" default-src 'self'; script-src 'self' code.jquery.com; style-src 'self' fonts.googleapis.com; font-src fonts.gstatic.com; img-src 'self' images.examplecdn.com; "> -->
   </head>
 
   <body>
@@ -97,6 +119,7 @@
     <div class="page-content">
       <div class="container">
         <main>
+          
           
             <section>
               <h2 class="section-heading">Projects</h2>
@@ -214,7 +237,6 @@
               
             </section>
           
-
           
             <section>
               <h2 class="section-heading">Work Experience</h2>
@@ -239,6 +261,7 @@
             </section>
           
 
+
           
             <section>
               <h2 class="section-heading">Volunteer Experience</h2>
@@ -262,6 +285,7 @@
           
         </main>
 
+        <!-- Sidebar Section -->
         <aside>
           
             <section>
@@ -324,9 +348,7 @@
                   <li>
                     <h3>Python</h3>
                     <div class="skill-bar">
-                      <!-- Fixed: use CSS variable instead of w- classes -->
-                      <div class="skill-bar-fill"
-                           style="--pct: 85%;"
+                      <div class="skill-bar-fill w-85"
                            role="meter"
                            aria-valuenow="85"
                            aria-valuemin="0"
@@ -339,9 +361,7 @@
                   <li>
                     <h3>Flask</h3>
                     <div class="skill-bar">
-                      <!-- Fixed: use CSS variable instead of w- classes -->
-                      <div class="skill-bar-fill"
-                           style="--pct: 85%;"
+                      <div class="skill-bar-fill w-85"
                            role="meter"
                            aria-valuenow="85"
                            aria-valuemin="0"
@@ -354,9 +374,7 @@
                   <li>
                     <h3>Django</h3>
                     <div class="skill-bar">
-                      <!-- Fixed: use CSS variable instead of w- classes -->
-                      <div class="skill-bar-fill"
-                           style="--pct: 85%;"
+                      <div class="skill-bar-fill w-85"
                            role="meter"
                            aria-valuenow="85"
                            aria-valuemin="0"
@@ -369,9 +387,7 @@
                   <li>
                     <h3>Linux / System Administration</h3>
                     <div class="skill-bar">
-                      <!-- Fixed: use CSS variable instead of w- classes -->
-                      <div class="skill-bar-fill"
-                           style="--pct: 90%;"
+                      <div class="skill-bar-fill w-90"
                            role="meter"
                            aria-valuenow="90"
                            aria-valuemin="0"
@@ -384,9 +400,7 @@
                   <li>
                     <h3>JavaScript</h3>
                     <div class="skill-bar">
-                      <!-- Fixed: use CSS variable instead of w- classes -->
-                      <div class="skill-bar-fill"
-                           style="--pct: 60%;"
+                      <div class="skill-bar-fill w-60"
                            role="meter"
                            aria-valuenow="60"
                            aria-valuemin="0"
@@ -399,9 +413,7 @@
                   <li>
                     <h3>Docker</h3>
                     <div class="skill-bar">
-                      <!-- Fixed: use CSS variable instead of w- classes -->
-                      <div class="skill-bar-fill"
-                           style="--pct: 60%;"
+                      <div class="skill-bar-fill w-60"
                            role="meter"
                            aria-valuenow="60"
                            aria-valuemin="0"
@@ -414,9 +426,7 @@
                   <li>
                     <h3>AWS</h3>
                     <div class="skill-bar">
-                      <!-- Fixed: use CSS variable instead of w- classes -->
-                      <div class="skill-bar-fill"
-                           style="--pct: 60%;"
+                      <div class="skill-bar-fill w-60"
                            role="meter"
                            aria-valuenow="60"
                            aria-valuemin="0"
@@ -429,9 +439,7 @@
                   <li>
                     <h3>MySQL</h3>
                     <div class="skill-bar">
-                      <!-- Fixed: use CSS variable instead of w- classes -->
-                      <div class="skill-bar-fill"
-                           style="--pct: 65%;"
+                      <div class="skill-bar-fill w-65"
                            role="meter"
                            aria-valuenow="65"
                            aria-valuemin="0"
@@ -444,9 +452,7 @@
                   <li>
                     <h3>SQLite</h3>
                     <div class="skill-bar">
-                      <!-- Fixed: use CSS variable instead of w- classes -->
-                      <div class="skill-bar-fill"
-                           style="--pct: 80%;"
+                      <div class="skill-bar-fill w-80"
                            role="meter"
                            aria-valuenow="80"
                            aria-valuemin="0"
@@ -459,9 +465,7 @@
                   <li>
                     <h3>Nuxt.js</h3>
                     <div class="skill-bar">
-                      <!-- Fixed: use CSS variable instead of w- classes -->
-                      <div class="skill-bar-fill"
-                           style="--pct: 60%;"
+                      <div class="skill-bar-fill w-60"
                            role="meter"
                            aria-valuenow="60"
                            aria-valuemin="0"
@@ -474,9 +478,7 @@
                   <li>
                     <h3>Raspberry Pi</h3>
                     <div class="skill-bar">
-                      <!-- Fixed: use CSS variable instead of w- classes -->
-                      <div class="skill-bar-fill"
-                           style="--pct: 70%;"
+                      <div class="skill-bar-fill w-70"
                            role="meter"
                            aria-valuenow="70"
                            aria-valuemin="0"
