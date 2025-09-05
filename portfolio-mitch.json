@@ -147,7 +147,7 @@
   { "name": "AWS", "proficiency": 60, "proficiency_label": "Working" },
   { "name": "MySQL", "proficiency": 65, "proficiency_label": "Working" },
   { "name": "SQLite", "proficiency": 80, "proficiency_label": "Advanced" },
-  { "name": "Nuxt.js", "proficiency": 55, "proficiency_label": "Familiar" },
+  { "name": "Nuxt.js", "proficiency": 60, "proficiency_label": "Working" },
   { "name": "Raspberry Pi", "proficiency": 70, "proficiency_label": "Working" }
 ],
 "tech_stack": [
